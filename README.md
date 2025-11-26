@@ -10,4 +10,4 @@ The goal of the project was to implement a program that:
 
 # Technologies & Tools
 - **Languages:** Python
-- **Libraries:** getpass, string
+- **Libraries:** getpass, string, patch
