@@ -244,3 +244,11 @@ def input_vigenere_key():
     
     vigenere_key = find_vigenere_key(encrypted_message, decrypted_message)
     return vigenere_key
+
+
+# methods for testing purposes only
+def get_encrypted_message(plaintext, key):
+    return vigenere_encrypt(plaintext, key)
+
+def get_decrypted_message(ciphertext, key):
+    return vigenere_decrypt(ciphertext, key)
