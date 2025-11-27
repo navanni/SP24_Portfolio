@@ -1,7 +1,7 @@
 from unittest.mock import patch
 import pytest
 
-from my_module.vigenere_cipher import generate_vigenere_table, format_key, remove_punctuation, vigenere_encrypt, input_vigenere_encrypt, vigenere_decrypt, input_vigenere_decrypt, find_vigenere_key, input_vigenere_key, get_encrypted_message, get_decrypted_message
+from vigenere_cipher import generate_vigenere_table, format_key, remove_punctuation, vigenere_encrypt, input_vigenere_encrypt, vigenere_decrypt, input_vigenere_decrypt, find_vigenere_key, input_vigenere_key, get_encrypted_message, get_decrypted_message
 
 def test_generate_vigenere_table():
     vigenere_table = generate_vigenere_table()
